@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE06BCD0192270E600714FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06BCCF192270E600714FF9 /* Foundation.framework */; };
+		AE06BCD2192270E600714FF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06BCD1192270E600714FF9 /* CoreGraphics.framework */; };
+		AE06BCD4192270E600714FF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06BCD3192270E600714FF9 /* UIKit.framework */; };
+		AE06BCDA192270E600714FF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE06BCD8192270E600714FF9 /* InfoPlist.strings */; };
+		AE06BCDC192270E600714FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE06BCDB192270E600714FF9 /* main.m */; };
+		AE06BCE0192270E600714FF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE06BCDF192270E600714FF9 /* AppDelegate.m */; };
+		AE06BCE3192270E600714FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE06BCE1192270E600714FF9 /* Main.storyboard */; };
+		AE06BCE6192270E600714FF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE06BCE5192270E600714FF9 /* ViewController.m */; };
+		AE06BCE8192270E600714FF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE06BCE7192270E600714FF9 /* Images.xcassets */; };
+		AE06BCEF192270E600714FF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06BCEE192270E600714FF9 /* XCTest.framework */; };
+		AE06BCF0192270E600714FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06BCCF192270E600714FF9 /* Foundation.framework */; };
+		AE06BCF1192270E600714FF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06BCD3192270E600714FF9 /* UIKit.framework */; };
+		AE06BCF9192270E600714FF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE06BCF7192270E600714FF9 /* InfoPlist.strings */; };
+		AE06BCFB192270E600714FF9 /* IntergalacticTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE06BCFA192270E600714FF9 /* IntergalacticTravelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE06BCF2192270E600714FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE06BCC4192270E600714FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE06BCCB192270E600714FF9;
+			remoteInfo = IntergalacticTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE06BCCC192270E600714FF9 /* IntergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE06BCCF192270E600714FF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE06BCD1192270E600714FF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE06BCD3192270E600714FF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE06BCD7192270E600714FF9 /* IntergalacticTravel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntergalacticTravel-Info.plist"; sourceTree = "<group>"; };
+		AE06BCD9192270E600714FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE06BCDB192270E600714FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE06BCDD192270E600714FF9 /* IntergalacticTravel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntergalacticTravel-Prefix.pch"; sourceTree = "<group>"; };
+		AE06BCDE192270E600714FF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE06BCDF192270E600714FF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE06BCE2192270E600714FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE06BCE4192270E600714FF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE06BCE5192270E600714FF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE06BCE7192270E600714FF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE06BCED192270E600714FF9 /* IntergalacticTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE06BCEE192270E600714FF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE06BCF6192270E600714FF9 /* IntergalacticTravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntergalacticTravelTests-Info.plist"; sourceTree = "<group>"; };
+		AE06BCF8192270E600714FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE06BCFA192270E600714FF9 /* IntergalacticTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalacticTravelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE06BCC9192270E600714FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE06BCD2192270E600714FF9 /* CoreGraphics.framework in Frameworks */,
+				AE06BCD4192270E600714FF9 /* UIKit.framework in Frameworks */,
+				AE06BCD0192270E600714FF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE06BCEA192270E600714FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE06BCEF192270E600714FF9 /* XCTest.framework in Frameworks */,
+				AE06BCF1192270E600714FF9 /* UIKit.framework in Frameworks */,
+				AE06BCF0192270E600714FF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE06BCC3192270E600714FF9 = {
+			isa = PBXGroup;
+			children = (
+				AE06BCD5192270E600714FF9 /* IntergalacticTravel */,
+				AE06BCF4192270E600714FF9 /* IntergalacticTravelTests */,
+				AE06BCCE192270E600714FF9 /* Frameworks */,
+				AE06BCCD192270E600714FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE06BCCD192270E600714FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE06BCCC192270E600714FF9 /* IntergalacticTravel.app */,
+				AE06BCED192270E600714FF9 /* IntergalacticTravelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE06BCCE192270E600714FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE06BCCF192270E600714FF9 /* Foundation.framework */,
+				AE06BCD1192270E600714FF9 /* CoreGraphics.framework */,
+				AE06BCD3192270E600714FF9 /* UIKit.framework */,
+				AE06BCEE192270E600714FF9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE06BCD5192270E600714FF9 /* IntergalacticTravel */ = {
+			isa = PBXGroup;
+			children = (
+				AE06BCDE192270E600714FF9 /* AppDelegate.h */,
+				AE06BCDF192270E600714FF9 /* AppDelegate.m */,
+				AE06BCE1192270E600714FF9 /* Main.storyboard */,
+				AE06BCE4192270E600714FF9 /* ViewController.h */,
+				AE06BCE5192270E600714FF9 /* ViewController.m */,
+				AE06BCE7192270E600714FF9 /* Images.xcassets */,
+				AE06BCD6192270E600714FF9 /* Supporting Files */,
+			);
+			path = IntergalacticTravel;
+			sourceTree = "<group>";
+		};
+		AE06BCD6192270E600714FF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE06BCD7192270E600714FF9 /* IntergalacticTravel-Info.plist */,
+				AE06BCD8192270E600714FF9 /* InfoPlist.strings */,
+				AE06BCDB192270E600714FF9 /* main.m */,
+				AE06BCDD192270E600714FF9 /* IntergalacticTravel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE06BCF4192270E600714FF9 /* IntergalacticTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE06BCFA192270E600714FF9 /* IntergalacticTravelTests.m */,
+				AE06BCF5192270E600714FF9 /* Supporting Files */,
+			);
+			path = IntergalacticTravelTests;
+			sourceTree = "<group>";
+		};
+		AE06BCF5192270E600714FF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE06BCF6192270E600714FF9 /* IntergalacticTravelTests-Info.plist */,
+				AE06BCF7192270E600714FF9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE06BCCB192270E600714FF9 /* IntergalacticTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE06BCFE192270E600714FF9 /* Build configuration list for PBXNativeTarget "IntergalacticTravel" */;
+			buildPhases = (
+				AE06BCC8192270E600714FF9 /* Sources */,
+				AE06BCC9192270E600714FF9 /* Frameworks */,
+				AE06BCCA192270E600714FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntergalacticTravel;
+			productName = IntergalacticTravel;
+			productReference = AE06BCCC192270E600714FF9 /* IntergalacticTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE06BCEC192270E600714FF9 /* IntergalacticTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE06BD01192270E600714FF9 /* Build configuration list for PBXNativeTarget "IntergalacticTravelTests" */;
+			buildPhases = (
+				AE06BCE9192270E600714FF9 /* Sources */,
+				AE06BCEA192270E600714FF9 /* Frameworks */,
+				AE06BCEB192270E600714FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE06BCF3192270E600714FF9 /* PBXTargetDependency */,
+			);
+			name = IntergalacticTravelTests;
+			productName = IntergalacticTravelTests;
+			productReference = AE06BCED192270E600714FF9 /* IntergalacticTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE06BCC4192270E600714FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mathien;
+				TargetAttributes = {
+					AE06BCEC192270E600714FF9 = {
+						TestTargetID = AE06BCCB192270E600714FF9;
+					};
+				};
+			};
+			buildConfigurationList = AE06BCC7192270E600714FF9 /* Build configuration list for PBXProject "IntergalacticTravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE06BCC3192270E600714FF9;
+			productRefGroup = AE06BCCD192270E600714FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE06BCCB192270E600714FF9 /* IntergalacticTravel */,
+				AE06BCEC192270E600714FF9 /* IntergalacticTravelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE06BCCA192270E600714FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE06BCE8192270E600714FF9 /* Images.xcassets in Resources */,
+				AE06BCDA192270E600714FF9 /* InfoPlist.strings in Resources */,
+				AE06BCE3192270E600714FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE06BCEB192270E600714FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE06BCF9192270E600714FF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE06BCC8192270E600714FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE06BCE6192270E600714FF9 /* ViewController.m in Sources */,
+				AE06BCE0192270E600714FF9 /* AppDelegate.m in Sources */,
+				AE06BCDC192270E600714FF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE06BCE9192270E600714FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE06BCFB192270E600714FF9 /* IntergalacticTravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE06BCF3192270E600714FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE06BCCB192270E600714FF9 /* IntergalacticTravel */;
+			targetProxy = AE06BCF2192270E600714FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE06BCD8192270E600714FF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE06BCD9192270E600714FF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE06BCE1192270E600714FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE06BCE2192270E600714FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE06BCF7192270E600714FF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE06BCF8192270E600714FF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE06BCFC192270E600714FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE06BCFD192270E600714FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE06BCFF192270E600714FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntergalacticTravel/IntergalacticTravel-Prefix.pch";
+				INFOPLIST_FILE = "IntergalacticTravel/IntergalacticTravel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE06BD00192270E600714FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntergalacticTravel/IntergalacticTravel-Prefix.pch";
+				INFOPLIST_FILE = "IntergalacticTravel/IntergalacticTravel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE06BD02192270E600714FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IntergalacticTravel.app/IntergalacticTravel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntergalacticTravel/IntergalacticTravel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IntergalacticTravelTests/IntergalacticTravelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE06BD03192270E600714FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IntergalacticTravel.app/IntergalacticTravel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntergalacticTravel/IntergalacticTravel-Prefix.pch";
+				INFOPLIST_FILE = "IntergalacticTravelTests/IntergalacticTravelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE06BCC7192270E600714FF9 /* Build configuration list for PBXProject "IntergalacticTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE06BCFC192270E600714FF9 /* Debug */,
+				AE06BCFD192270E600714FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE06BCFE192270E600714FF9 /* Build configuration list for PBXNativeTarget "IntergalacticTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE06BCFF192270E600714FF9 /* Debug */,
+				AE06BD00192270E600714FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE06BD01192270E600714FF9 /* Build configuration list for PBXNativeTarget "IntergalacticTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE06BD02192270E600714FF9 /* Debug */,
+				AE06BD03192270E600714FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE06BCC4192270E600714FF9 /* Project object */;
+}
